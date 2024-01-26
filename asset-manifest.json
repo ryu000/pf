@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/pf/static/css/main.21a9923b.css",
+    "main.js": "/pf/static/js/main.402efe37.js",
+    "static/media/p-pic11.png": "/pf/static/media/p-pic11.54254e6c954d27284753.png",
+    "static/media/p-pic5.png": "/pf/static/media/p-pic5.810b82eb8cb72835c28d.png",
+    "static/media/p-pic8.png": "/pf/static/media/p-pic8.1be87456e812205d5817.png",
+    "static/media/p-pic6.png": "/pf/static/media/p-pic6.e6ec23f36c0705646709.png",
+    "static/media/hero1.jpg": "/pf/static/media/hero1.328da1349b6fba5d06ba.jpg",
+    "static/media/p-pic7.png": "/pf/static/media/p-pic7.408f405c4c4fbdd00e95.png",
+    "static/media/p-pic1.png": "/pf/static/media/p-pic1.523b624b23628eef8506.png",
+    "static/media/p-pic2.png": "/pf/static/media/p-pic2.392980d466c5ad5b2861.png",
+    "static/media/p-pic9.png": "/pf/static/media/p-pic9.7fe8e95f3f50399a041c.png",
+    "static/media/p-pic4.png": "/pf/static/media/p-pic4.ca6fc8edb7930a864f64.png",
+    "static/media/p-pic10.png": "/pf/static/media/p-pic10.82a8d8b4bb3b28562f52.png",
+    "static/media/p-pic13.png": "/pf/static/media/p-pic13.82fd713f27c77e67b373.png",
+    "static/media/me.jpg": "/pf/static/media/me.d8ba413d808e2201f889.jpg",
+    "static/media/p-pic3.png": "/pf/static/media/p-pic3.29ef589ed85759f98178.png",
+    "static/media/instagram.png": "/pf/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/p-pic12.png": "/pf/static/media/p-pic12.12843dd1ae7d39fe5905.png",
+    "static/media/twitter.png": "/pf/static/media/twitter.c6e48e60f856cb822273.png",
+    "static/media/facebook.png": "/pf/static/media/facebook.fe68b242afa00d9ad1bd.png",
+    "static/media/mail.png": "/pf/static/media/mail.45cd69e9442e73b3128e.png",
+    "static/media/p-pic14.png": "/pf/static/media/p-pic14.cd52938abc6195bc268f.png",
+    "index.html": "/pf/index.html",
+    "main.21a9923b.css.map": "/pf/static/css/main.21a9923b.css.map",
+    "main.402efe37.js.map": "/pf/static/js/main.402efe37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21a9923b.css",
+    "static/js/main.402efe37.js"
+  ]
+}
