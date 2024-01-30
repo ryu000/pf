@@ -45,233 +45,219 @@ const SwiperIn = () => {
 
   return (
     <>
-    <Swiper
-      className="swiper"
-      autoplay={{ delay: 0, stopOnLastSlide: false, disableOnInteraction: false, reverseDirection: false }}
-      grabCursor={true}
-      loop={true}
-      spaceBetween={10}
-      speed={6000}
-      loopedSlides={slideLength}
-      slidesPerView={2}
-      centeredSlides={true}
-      loopAdditionalSlides={1}
+      <Swiper
+        className="swiper"
+        autoplay={{ delay: 0, stopOnLastSlide: false, disableOnInteraction: false, reverseDirection: false }}
+        grabCursor={true}
+        loop={true}
+        spaceBetween={10}
+        speed={6000}
+        loopedSlides={slideLength}
+        slidesPerView={2}
+        centeredSlides={true}
+        loopAdditionalSlides={1}
 
-    >
+      >
 
-      <div className="swiper-wrapper">
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_1} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_2} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_3} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_4} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_5} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_6} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_7} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_8} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_9} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_10} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_11} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_12} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_13} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="slide">
-            <a href="#">
-              <div className="slide-media img-cover">
-                <img src={image_14} alt="" />
-              </div>
-              <div className="slide-content">
-                <p className="slide-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
-                </p>
-              </div>
-            </a>
-          </div>
-        </SwiperSlide>
-      </div>
-    </Swiper>
+        <div className="swiper-wrapper">
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_1} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_2} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_3} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_4} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_5} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    ポートフォリオサイト(当サイト)
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_6} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_7} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_8} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_9} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_10} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_11} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_12} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_13} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="slide">
+              <a href="http://google.com">
+                <div className="slide-media img-cover">
+                  <img src={image_14} alt="" />
+                </div>
+                <div className="slide-content">
+                  <p className="slide-title">
+                    勉強課題/模写コーディング
+                  </p>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+        </div>
+      </Swiper>
     </>
   )
 }
