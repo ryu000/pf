@@ -17,11 +17,10 @@ const Nav = () => {
     <nav>
       <div className={`nav ${isOpen ? 'open' : ''}`}>
         <ul onClick={handleLinkClick}>
-          <li><HashLink to="/#header" onClick={handleLinkClick}>HOME</HashLink></li>
+          <li><HashLink to="/pf#header" onClick={handleLinkClick}>HOME</HashLink></li>
           <li ><Link to="/profile" onClick={handleLinkClick}>PROFILE</Link></li>
           <li ><HashLink to="/works#works-top" onClick={handleLinkClick}>WORKS</HashLink></li>
-          <li ><HashLink to="/#contact" onClick={handleLinkClick}>CONTACT</HashLink></li>
-
+          <li ><HashLink to="/pf#contact" onClick={handleLinkClick}>CONTACT</HashLink></li>
         </ul>
       </div>
 

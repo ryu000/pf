@@ -2,6 +2,7 @@ import React from 'react'
 import cw from '../Css/works.module.css'
 
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import image_1 from "../images/p-pic1.png"
 import image_2 from "../images/p-pic2.png"
 import image_3 from "../images/p-pic3.png"
@@ -32,16 +33,16 @@ const Works = () => {
           <li><Link to="/works"><img src={image_2} alt="" /></Link></li>
           <li><Link to="/works"><img src={image_3} alt="" /></Link></li>
           <li><Link to="/works"><img src={image_4} alt="" /></Link></li>
-          <li><Link to="/works"><img src={image_5} alt="" /></Link></li>
-          <li><Link to="/works"><img src={image_6} alt="" /></Link></li>
+          <li><HashLink to="/pf#header"><img src={image_5} alt="" /></HashLink></li>
+          <li><HashLink to="/w6#header"><img src={image_6} alt="" /></HashLink></li>
           <li><Link to="/works"><img src={image_7} alt="" /></Link></li>
           <li><Link to="/works"><img src={image_8} alt="" /></Link></li>
-          <li><Link to="/works"><img src={image_9} alt="" /></Link></li>
-          <li><Link to="/works"><img src={image_10} alt="" /></Link></li>
+          <li><HashLink to="/w9#header"><img src={image_9} alt="" /></HashLink></li>
+          <li><HashLink to="/w10#header"><img src={image_10} alt="" /></HashLink></li>
           <li><Link to="/works"><img src={image_11} alt="" /></Link></li>
           <li><Link to="/works"><img src={image_12} alt="" /></Link></li>
           <li><Link to="/works"><img src={image_13} alt="" /></Link></li>
-          <li><Link to="/works"><img src={image_14} alt="" /></Link></li>
+          <li><Link to="/w14"><img src={image_14} alt="" /></Link></li>
         </ul>
       </main>
     </div >

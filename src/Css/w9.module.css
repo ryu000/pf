@@ -1,0 +1,185 @@
+.all html {
+    font-size: 100%;
+
+}
+
+.all body {
+    font-size: 0.875rem;
+    color: #383e45;
+    background-color: aliceblue;
+}
+
+.all img {
+    max-width: 100%;
+}
+
+.all a {
+    text-decoration: none;
+}
+
+.all li {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.all section {
+    margin-bottom: 60px;
+}
+
+.inner {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.sub_title {
+    display: flex;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+}
+
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.header .title {
+    line-height: 1px;
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.header .title a{
+    display: block;
+}
+
+
+/*mainvisual*/
+.mainvisual {
+    object-fit: cover;
+    margin-bottom: 60px;
+}
+
+
+/*index*/
+.index {
+    background-color: white;
+    padding: 30px 0;
+}
+
+.index li {
+    margin-bottom: 20px;
+    text-align: left;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.index li:last-child {
+    margin-bottom: 0;
+}
+
+/*detail*/
+.detail {
+    margin-bottom: 100px;
+}
+
+.detail img {
+    width: 270px;
+    height: 270px;
+    margin-right: 60px;
+
+}
+
+.detail .sep {
+    display: flex;
+    align-items: flex-start;
+}
+
+.detail .sep dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 16px 0;
+    margin: 0 0 25px; 
+    border-bottom: solid 1px #dedede;
+    border-top: solid 1px #dedede;
+}
+
+.detail .sep dt {
+    width: 25%;
+}
+
+.detail .sep dd {
+    width: 75%;
+}
+
+.detail .article {
+    text-align: left;
+}
+
+.detail p {
+    margin-bottom: 20px;
+}
+
+.detail .title {
+    margin-bottom: 20px;
+    font-size: 1.125rem;
+}
+
+.detail .link {
+    text-decoration: underline;
+    color: #383e45;
+}
+
+.detail .link:hover {
+    opacity: 0.7;
+}
+
+/* footer */
+
+.footer {
+    padding: 15px 0;
+    text-align: left;
+    font-size: 0.625rem;
+}
+
+/* SP */
+
+@media  screen and (max-width: 1024px) {
+
+    .inner {
+        max-width: 520px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .header {
+        padding: 0 10px;
+    }
+
+    .mainvisual img {
+        padding: 0 10px;
+    }
+
+    .detail .sep {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detail img {
+        width: 520px;
+        height: 100%;
+        object-fit: cover;
+        margin: 0 0 25px 0;
+    }
+}
