@@ -55,28 +55,6 @@ const Home = () => {
                     <br />
                     PORTFOLIO
                 </h2>
-                {/* <div className="nav">
-                    <ul>
-                        <li>
-                            <a href="#">HOME</a>
-                        </li>
-                        <li>
-                            <a href="#profile">PROFILE</a>
-                        </li>
-                        <li>
-                            <a href="#works">WORKS</a>
-                        </li>
-                        <li>
-                            <a href="#contact">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="toggle">
-                    <span />
-                    <span />
-                    <span />
-                </div>
-                <div id="mask" /> */}
             </header>
             {/* hero */}
             <section className="hero" id="home">
